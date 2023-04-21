@@ -1,0 +1,32 @@
+{
+  "name": "earlychecktheme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "gulp sass",
+    "watch": "gulp sass:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rti-international/hcsResourcesMockup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rti-international/hcsResourcesMockup/issues"
+  },
+  "homepage": "https://github.com/rti-international/hcsResourcesMockup#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.58.0"
+  }
+}
