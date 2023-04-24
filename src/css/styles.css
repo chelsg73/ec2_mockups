@@ -20,6 +20,7 @@ ul li::marker {
 
 ol li::marker {
   color: #005663;
+  font-weight: bold;
 }
 
 .btn:hover {
