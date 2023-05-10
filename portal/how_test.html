@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Page 11</title>
+  <title>Page 11 Version 2</title>
   <link href="/ec2_mockups/src/css/styles.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,8 +16,8 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-primary py-0" data-bs-theme="dark">
     <div class="container">
-      <a class="navbar-brand" href="/index.html"><img src="/ec2_mockups/src/images/early_check_logo_light.png"
-          class="img-fluid" id="navbarImg"></a>
+      <a class="navbar-brand" href="/index.html"><img src="/ec2_mockups/src/images/early_check_logo_light.png" class="img-fluid"
+          id="navbarImg"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,7 @@
             </a>
             <ul class="dropdown-menu bg-primary">
               <li><a class="dropdown-item" href="#">How Early Check Works</a></li>
-              <li><a class="dropdown-item" href="/ec2_mockups/important_things.html">Important Things to Know</a></li>
+              <li><a class="dropdown-item" href="/important_things.html">Important Things to Know</a></li>
               <li><a class="dropdown-item" href="/benefits_risks.html">Benefits and Risks</a></li>
               <li>
                 <hr class="dropdown-divider">
@@ -59,48 +59,93 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-9">
-          <h1 class="mb-5">How does Early Check test for these conditions?</h1>
+          <h1>How does Early Check test for these conditions?</h1>
 
-          <h2>Treatable Conditions [and Conditions with Potential Treatments]</h2>
-          <h3>Early Check uses DNA sequencing.</h3>
-          <p>Most of the health conditions will be tested using a highly accurate test called DNA sequencing. This is
-            spelling out and reading the baby’s genetic information (DNA).</p>
-          <p>The DNA sequencing is done by a partner lab called GeneDx that works with Early Check. Your baby’s blood
-            sample would be sent to GeneDx to do the screening.</p>
-          <h3>What type of results will I get for my baby?</h3>
-          <p>Remember the goal of this screening test is to find serious health conditions in babies so they can get
-            help sooner. There are two possible results reported from this screening:</p>
-          <ul>
-            <li>Normal result</li>
-            <li>Not normal result</li>
-          </ul>
-          <p class="mb-5">Most parents get a normal result for their baby. The Early Check screening tests are not perfect and will
-            not find all health conditions in all babies.</p>
+          <div class="row my-3">
+            <div class="col-12">
+              <nav>
+                <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                  <div class="col-12 col-lg-6 col-sm-6">
+                    <button class="nav-link active w-100 h-100" id="nav-treatable-tab" data-bs-toggle="tab"
+                      data-bs-target="#nav-treatable" type="button" role="tab" aria-controls="nav-treatable"
+                      aria-selected="true">Treatable Conditions [and Conditions with Potential Treatments]</button>
+                  </div>
+                  <div class="col-12 col-lg-6 col-sm-6">
+                    <button class="nav-link w-100 h-100" id="nav-risk-t1d-tab" data-bs-toggle="tab"
+                      data-bs-target="#nav-risk-t1d" type="button" role="tab" aria-controls="nav-risk-t1d"
+                      aria-selected="false">Risk for type 1 diabetes (T1D)</button>
+                  </div>
+                </div>
+              </nav>
+              <div class="tab-content mb-3" id="nav-tabContent">
+                <!-- tab 1 -->
+                <div class="tab-pane fade show active mt-3" id="nav-treatable" role="tabpanel"
+                  aria-labelledby="nav-treatable-tab" tabindex="0">
+                  <h2>Treatable Conditions [and Conditions with Potential Treatments]</h2>
+                  <h3 class="mt-3">Early Check uses DNA sequencing.</h3>
+                  <p>Most of the health conditions will be tested using a highly accurate test called DNA sequencing.
+                    This is
+                    spelling out and reading the baby’s genetic information (DNA).</p>
+                  <p>The DNA sequencing is done by a partner lab called GeneDx that works with Early Check. Your baby’s
+                    blood
+                    sample would be sent to GeneDx to do the screening.</p>
 
-          <h2>Risk for type 1 diabetes (T1D)</h2>
-          <p>DNA sequencing can also be used to check your baby’s risk for getting type 1 diabetes (T1D) during their
-            lifetime. This screening for T1D looks for small differences in many genes, called markers. These markers
-            can be a sign of a higher risk for T1D.</p>
-          <p>The more of these markers a baby has, the higher their chance of getting T1D during their lifetime.</p>
-          <h3>What type of results will I get for my baby?</h3>
-          <p>Remember, the goal of the screening is to estimate a baby’s risk for getting T1D during their lifetime.
-            This is reported as a <strong class="text-primary">risk range</strong>. One of these three risk ranges
-            will be reported from this screening:</p>
-          <ol>
-            <li>low risk,</li>
-            <li>higher risk,</li>
-            <li>highest risk</li>
-          </ol>
-          <p class="mb-5">The Early Check screening for T1D <strong class="text-primary">does not</strong> give a yes or no answer
-            about whether the baby will have T1D.
-            This test cannot tell for sure if a baby will get T1D or at what age.</p>
-          <p><a href="#" target="_blank">Click here</a> to see the health conditions screened using DNA sequencing.</p>
+                  <h3 class="mt-4">What type of results will I get for my baby?</h3>
+                  <p>Remember the goal of this screening test is to find serious health conditions in babies so they can
+                    get
+                    help sooner. There are two possible results reported from this screening:</p>
+                  <ul>
+                    <li>Normal result</li>
+                    <li>Not normal result</li>
+                  </ul>
+                  <p>Most parents get a normal result for their baby. The Early Check screening tests are not perfect
+                    and will
+                    not find all health conditions in all babies.</p>
+                </div>
 
-          <a href="/ec2_mockups/portal/why_choose.html"><button class="btn btn-secondary my-3">Back</button></a>
-          <a href="/ec2_mockups/portal/how_test_alt.html"><button class="btn btn-primary my-3">Next</button></a>
+                <!-- tab 2 -->
+                <div class="tab-pane fade mt-3" id="nav-risk-t1d" role="tabpanel" aria-labelledby="nav-risk-t1d-tab"
+                  tabindex="0">
+                  <h2>Risk for type 1 diabetes (T1D)</h2>
+                  <p>DNA sequencing can also be used to check your baby’s risk for getting type 1 diabetes (T1D) during
+                    their
+                    lifetime. This screening for T1D looks for small differences in many genes, called markers. These
+                    markers
+                    can be a sign of a higher risk for T1D.</p>
+                  <p>The more of these markers a baby has, the higher their chance of getting T1D during their lifetime.
+                  </p>
+
+                  <h3 class="mt-4">What type of results will I get for my baby?</h3>
+                  <p>Remember, the goal of the screening is to estimate a baby’s risk for getting T1D during their
+                    lifetime.
+                    This is reported as a <strong class="text-primary">risk range</strong>. One of these three risk
+                    ranges
+                    will be reported from this screening:</p>
+                  <ol>
+                    <li>low risk,</li>
+                    <li>higher risk,</li>
+                    <li>highest risk</li>
+                  </ol>
+                  <p>The Early Check screening for T1D <strong class="text-primary">does not</strong> give a yes or no
+                    answer
+                    about whether the baby will have T1D.
+                    This test cannot tell for sure if a baby will get T1D or at what age.</p>
+                  <p><a href="#" target="_blank">Click here</a> to see the health conditions screened using DNA
+                    sequencing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="/ec2_mockups/portal/why_choose.html"><button class="btn btn-secondary my-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-left" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" /><path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" /></svg>&nbsp;Back</button></a>
+          <a href="/ec2_mockups/portal/review.html"><button class="btn btn-primary my-3">Next&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" /><path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" /></svg></button></a>
         </div>
         <div class="col-12 col-lg-3">
-          <a href=""><button class="btn btn-secondary my-3">Play voice over</button></a>
+          <a href=""><button class="btn btn-secondary my-3">Play voice over&nbsp;<svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-headphones" viewBox="0 0 16 16">
+                <path
+                  d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5z" />
+              </svg></button></a>
         </div>
       </div>
     </div>
