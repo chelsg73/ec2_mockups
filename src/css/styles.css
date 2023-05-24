@@ -43,6 +43,20 @@ ol li::marker {
   border-radius: 5rem;
 }
 
+.accordion1 .accordion-item {
+  border-color: #94C6CE !important;
+}
+.accordion1 .accordion-item.active {
+  border-color: #94C6CE !important;
+}
+.accordion1 .accordion-item .accordion-header .accordion-button:hover {
+  background-color: #d4e8eb !important;
+}
+
+.accordion-flush .accordion-item .accordion-collapse#flush-collapseThree.show {
+  border-bottom: 1px solid #929292;
+}
+
 #carouselEC .carousel-inner {
   max-width: 75%;
   margin: 0 auto;
@@ -63,16 +77,6 @@ ol li::marker {
   color: #262626;
   border-color: #94C6CE;
   font-weight: bold;
-}
-
-.accordion1 .accordion-item {
-  border-color: #94C6CE !important;
-}
-.accordion1 .accordion-item.active {
-  border-color: #94C6CE !important;
-}
-.accordion1 .accordion-item .accordion-header .accordion-button:hover {
-  background-color: #d4e8eb !important;
 }
 
 .navbar .container .navbar-brand #navbarImg {
